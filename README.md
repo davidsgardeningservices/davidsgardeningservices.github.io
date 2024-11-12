@@ -1,1 +1,0 @@
-# davidsgardeningservices.github.io

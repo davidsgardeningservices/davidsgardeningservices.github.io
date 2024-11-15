@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ecfe88b.css",
-    "main.js": "/static/js/main.0ffdae6a.js",
+    "main.css": "/static/css/main.ac529800.css",
+    "main.js": "/static/js/main.6ea3043d.js",
     "static/js/453.07da35a6.chunk.js": "/static/js/453.07da35a6.chunk.js",
     "static/media/Homepage-Garden.jpg": "/static/media/Homepage-Garden.10eb6e16efcb9b7c5d66.jpg",
     "static/media/Davids-Gardening-Logo.svg": "/static/media/Davids-Gardening-Logo.d3e797371e2650b61b830bc3f542cd88.svg",
     "index.html": "/index.html",
-    "main.4ecfe88b.css.map": "/static/css/main.4ecfe88b.css.map",
-    "main.0ffdae6a.js.map": "/static/js/main.0ffdae6a.js.map",
+    "main.ac529800.css.map": "/static/css/main.ac529800.css.map",
+    "main.6ea3043d.js.map": "/static/js/main.6ea3043d.js.map",
     "453.07da35a6.chunk.js.map": "/static/js/453.07da35a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ecfe88b.css",
-    "static/js/main.0ffdae6a.js"
+    "static/css/main.ac529800.css",
+    "static/js/main.6ea3043d.js"
   ]
 }

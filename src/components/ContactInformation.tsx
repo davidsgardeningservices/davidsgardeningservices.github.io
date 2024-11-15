@@ -1,10 +1,11 @@
+import './ContactInformation.css'
+
 import IconButton from '@mui/material/IconButton';
 import { Email, Phone, Facebook, Instagram, X } from '@mui/icons-material';
-import './TopSection.css';
 
-function ContactInfo() {
+export default function ContactInformation() {
     return (
-        <div className='Contact-Info-Top'>
+        <div id='contact-information'>
             <IconButton>
                 <Phone color='success' />
             </IconButton>
@@ -26,14 +27,5 @@ function ContactInfo() {
             </IconButton>
         </div>
     )
-}
 
-export default function TopSection() {
-    return (
-        <>
-            <div className='Top-section'>
-                <ContactInfo />
-            </div>
-        </>
-    )
 }

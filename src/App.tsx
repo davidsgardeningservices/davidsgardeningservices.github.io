@@ -1,14 +1,25 @@
-import React from 'react';
 import './App.css';
-import baseimage from './pexels-creative-vix-7283.jpg'
+import logo from './images/Davids-Gardening-Logo.svg'
+import garden from './images/Homepage-Garden.jpg'
+import Container from '@mui/material/Container';
 
-import TopSection from './components/TopSection';
+import ContactInformation from './components/ContactInformation';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="Home-Page">
-      <TopSection />
-      <img src={baseimage} className="baseimage" alt="logo" />
+    <div id='homepage'>
+      <Container id="container">
+        <NavBar />
+        <div id='logo-homepage'>
+          <img src={logo} alt="" />
+        </div>
+        <NavBar />
+        <ContactInformation />
+        <div id='homepage-picture'>
+          <img src={garden} alt="" />
+        </div>
+      </Container>
     </div>
   );
 }

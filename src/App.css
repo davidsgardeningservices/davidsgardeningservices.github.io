@@ -1,23 +1,20 @@
 #homepage {
     margin: 0 auto;
-    min-width: 1000px;
+    min-width: 375px;
     max-width: 1500px;
 }
 
 #logo-homepage {
-    display: inline-block;
     width: 45%;
-    border-style: dashed;
-    vertical-align: middle;
+    margin: auto;
 }
 
 #container {
-    min-width: 996px;
     text-align: center;
+    width: 100%;
 }
 
 #homepage-picture img {
-    border-style: dashed;
     margin-top: min(0.5rem);
     width: 100%;
     object-fit: cover;

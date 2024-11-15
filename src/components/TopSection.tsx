@@ -1,9 +1,10 @@
 import IconButton from '@mui/material/IconButton';
 import { Email, Phone, Facebook, Instagram, X } from '@mui/icons-material';
+import './TopSection.css';
 
 function ContactInfo() {
     return (
-        <div>
+        <div className='Contact-Info-Top'>
             <IconButton>
                 <Phone color='success' />
             </IconButton>
@@ -29,10 +30,10 @@ function ContactInfo() {
 
 export default function TopSection() {
     return (
-        <div className='Top-section'>
-            <div className='Contact-Info-Top'>
+        <>
+            <div className='Top-section'>
                 <ContactInfo />
             </div>
-        </div>
+        </>
     )
 }

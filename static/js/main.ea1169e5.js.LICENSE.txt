@@ -1,3 +1,9 @@
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -39,7 +45,7 @@
  */
 
 /**
- * @mui/styled-engine v6.1.6
+ * @mui/styled-engine v6.1.7
  *
  * @license MIT
  * This source code is licensed under the MIT license found in the

@@ -5,6 +5,7 @@ import Container from '@mui/material/Container';
 
 import ContactInformation from './components/ContactInformation';
 import NavBar from './components/NavBar';
+import TestimonialCarousel from './components/testimonials/TestimonialsCarousel';
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
         <ContactInformation />
         <div id='homepage-picture'>
           <img src={garden} alt="" />
+        </div>
+        <div id='homepage-testimonial'>
+          <TestimonialCarousel />
+        </div>
+        <div id='copyright'>
+          Website designed and built by Dr Joseph Guscott
         </div>
       </Container>
     </div>

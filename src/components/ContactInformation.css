@@ -1,6 +1,25 @@
 #contact-information {
-    width: 75%;
-    margin: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: middle;
-    font-size: 2.5vmin;
+    font-size: 2vmin;
+}
+
+#contact-information-phone {    
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact-information-email {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#social-media {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }

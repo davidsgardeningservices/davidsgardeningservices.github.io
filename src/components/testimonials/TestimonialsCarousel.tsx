@@ -2,6 +2,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import testimonials from './Testimonials';
+import './TestimonialCarousel.css'
+import { ArrowCircleLeft, ArrowCircleRight } from '@mui/icons-material';
 
 interface iTestimonials {
     key: number
@@ -38,14 +40,17 @@ function setTestimonialText(testimonials: iTestimonials) {
 
 export default function TestimonialCarousel() {
     const settings = {
-        dots: true,
+        dots: false,
+        arrows: true,
         fade: true,
         autoplay: true,
         infinite: true,
         speed: 500,
         autoplaySpeed: 5000,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        nextArrow: <ArrowCircleRight sx={{ color: '#649c2c', '&:hover': { color: '#649c2c' } }} />,
+        prevArrow: <ArrowCircleLeft sx={{ color: '#649c2c', '&:hover': { color: '#649c2c' } }} />
     };
     return (
         <div id='testimonial-carousel'>

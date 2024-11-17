@@ -6,6 +6,7 @@ import Container from '@mui/material/Container';
 import ContactInformation from './components/ContactInformation';
 import NavBar from './components/NavBar';
 import TestimonialCarousel from './components/testimonials/TestimonialsCarousel';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
         <div id='homepage-testimonial'>
           <TestimonialCarousel />
         </div>
-        <div id='copyright'>
-          Website designed and built by Dr Joseph Guscott
-        </div>
+        <NavBar />
+        <Footer />
+        <NavBar />
       </Container>
     </div>
   );

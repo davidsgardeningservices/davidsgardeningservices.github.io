@@ -5,8 +5,8 @@ import Container from '@mui/material/Container';
 
 import ContactInformation from './components/ContactInformation';
 import NavBar from './components/NavBar';
-import TestimonialCarousel from './components/testimonials/TestimonialsCarousel';
 import Footer from './components/Footer';
+import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <img src={garden} alt="" />
         </div>
         <div id='homepage-testimonial'>
-          <TestimonialCarousel />
+          <Testimonials />
         </div>
         <NavBar />
         <Footer />

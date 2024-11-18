@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
             </ Container>
             <div id='copyright'>
-                Website designed and built by Dr Joseph Guscott
+                &copy; Dr J. Guscott 2024
             </div>
         </div>
     )

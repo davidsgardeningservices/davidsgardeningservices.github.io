@@ -1,8 +1,8 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import testimonials from './Testimonials';
-import './TestimonialCarousel.css'
+import testimonialData from './TestimonialData';
+import './TestimonialsCarousel.css'
 import { ArrowCircleLeft, ArrowCircleRight } from '@mui/icons-material';
 
 interface iTestimonials {
@@ -11,29 +11,29 @@ interface iTestimonials {
     message: string
 }
 
-function TestimonialCard(testimonials: iTestimonials) {
+function TestimonialCard(testimonialData: iTestimonials) {
     return (
         <div id='testimonial-card'>
             <div id='testimonial-card-text'>
                 <p>
                     <span>&ldquo;</span>
-                    {testimonials.message}
+                    {testimonialData.message}
                     <span>&rdquo;</span>
                 </p>
                 <p>
-                    {testimonials.name}
+                    {testimonialData.name}
                 </p>
             </div>
         </div>
     )
 }
 
-function setTestimonialText(testimonials: iTestimonials) {
+function setTestimonialText(testimonialData: iTestimonials) {
     return (
         <TestimonialCard
-            key={testimonials.key}
-            name={testimonials.name}
-            message={testimonials.message}
+            key={testimonialData.key}
+            name={testimonialData.name}
+            message={testimonialData.message}
         />
     )
 }
@@ -47,14 +47,15 @@ export default function TestimonialCarousel() {
         infinite: true,
         speed: 500,
         autoplaySpeed: 5000,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         nextArrow: <ArrowCircleRight sx={{ color: '#649c2c', '&:hover': { color: '#649c2c' } }} />,
         prevArrow: <ArrowCircleLeft sx={{ color: '#649c2c', '&:hover': { color: '#649c2c' } }} />
+
     };
     return (
         <div id='testimonial-carousel'>
-            <Slider {...settings}>{testimonials.map(setTestimonialText)}</Slider>
+            <Slider {...settings}>{testimonialData.map(setTestimonialText)}</Slider>
         </div>
 
     );

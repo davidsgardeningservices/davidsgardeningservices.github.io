@@ -1,4 +1,4 @@
-const testimonials = [
+const testimonialData = [
     {
         key: 1,
         name: "Hannah C",
@@ -36,4 +36,4 @@ const testimonials = [
     }
 ]
 
-export default testimonials;
+export default testimonialData;

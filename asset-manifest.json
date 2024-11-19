@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4bea40b1.css",
-    "main.js": "/static/js/main.8d87494b.js",
+    "main.js": "/static/js/main.9c0eaa59.js",
     "static/js/453.07da35a6.chunk.js": "/static/js/453.07da35a6.chunk.js",
     "static/media/Homepage-Garden.jpg": "/static/media/Homepage-Garden.10eb6e16efcb9b7c5d66.jpg",
     "static/media/Medway-Map.png": "/static/media/Medway-Map.fe8578de8366b37d61eb.png",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.4bea40b1.css.map": "/static/css/main.4bea40b1.css.map",
-    "main.8d87494b.js.map": "/static/js/main.8d87494b.js.map",
+    "main.9c0eaa59.js.map": "/static/js/main.9c0eaa59.js.map",
     "453.07da35a6.chunk.js.map": "/static/js/453.07da35a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bea40b1.css",
-    "static/js/main.8d87494b.js"
+    "static/js/main.9c0eaa59.js"
   ]
 }

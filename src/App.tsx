@@ -11,9 +11,12 @@ import Location from './components/Location';
 import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 
+import NewNavBar from './New/NavBar';
+
 function App() {
   return (
     <div id='homepage'>
+      <NewNavBar />
       <Container id="container">
         <NavBar />
         <div id='logo-homepage'>

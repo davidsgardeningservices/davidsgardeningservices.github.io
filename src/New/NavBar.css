@@ -1,0 +1,25 @@
+.NewNavBarContainer {
+    margin: auto;
+}
+
+.NewAppBar {
+    margin: auto;
+    position: static;
+    width: 100%;
+    background-color: black;
+}
+
+.NewNavBarBusinessName {
+    width: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.NewNavBarContact {
+    font-size: 1.5vmin;
+    text-align: right;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0;
+}

@@ -10,7 +10,8 @@ export default function Location() {
                 <img src={map} alt="" />
             </div>
             <p id='location-list'>Coverage</p>
-            <p id='location-list'>Medway Towns &#40;Strood, Rochester, Chatham, Gillingham, Rainham&#41; Cliffe, Allhallows, Halling, Maidstone, Newington, Sittingbourne, and adjacent areas</p>
+            <p id='location-list'>Medway Towns &#40;Strood, Rochester, Chatham, Gillingham, Rainham&#41; Cliffe,
+                Allhallows, Halling, Maidstone, Newington, Sittingbourne, and adjacent areas.</p>
         </div>
     )
 }

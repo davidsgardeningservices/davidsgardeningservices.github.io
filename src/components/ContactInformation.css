@@ -1,25 +1,20 @@
 #contact-information {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: middle;
+    width: 100%;
+    margin:auto;
     font-size: 2vmin;
 }
 
 #contact-information-phone {    
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    margin: auto;
 }
 
 #contact-information-email {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    margin: auto;
 }
 
 #social-media {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100;
+    margin: auto;
 }

@@ -21,7 +21,6 @@ function App() {
         <div className='new-homepage-picture'>
           <img src={garden} alt="" />
         </div>
-        <NavBar />
         <div id='logo-homepage'>
           <img src={logo} alt="" />
         </div>
@@ -45,11 +44,9 @@ function App() {
         <div id='homepage-testimonial'>
           <Testimonials />
         </div>
-        <NavBar />
         <div id='homepage-footer'>
           <Footer />
         </div>
-        <NavBar />
       </Container>
     </div>
   );

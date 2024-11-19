@@ -21,8 +21,30 @@
     aspect-ratio: 3 / 1;
 }
 
+#homepage-services {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#homepage-location {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#homepage-why-us {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
 #homepage-testimonial {
     text-align: center;
     width: 50%;
     margin-left: 25%;
 }
+
+h3 {
+    color: #649c2c;
+  }

@@ -24,17 +24,25 @@ function App() {
         <div id='homepage-picture'>
           <img src={garden} alt="" />
         </div>
-        <Services />
+        <div id='homepage-services'>
+          <Services />
+        </div>
         <NavBar />
-        <Location />
+        <div id='homepage-location'>
+          <Location />
+        </div>
         <NavBar />
-        <WhyUs />
+        <div id='homepage-why-us'>
+          <WhyUs />
+        </div>
         <NavBar />
         <div id='homepage-testimonial'>
           <Testimonials />
         </div>
         <NavBar />
-        <Footer />
+        <div>
+          <Footer />
+        </div>
         <NavBar />
       </Container>
     </div>

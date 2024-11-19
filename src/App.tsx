@@ -25,7 +25,6 @@ function App() {
           <img src={logo} alt="" />
         </div>
         <NavBar />
-        <ContactInformation />
         <div id='homepage-picture'>
           <img src={garden} alt="" />
         </div>

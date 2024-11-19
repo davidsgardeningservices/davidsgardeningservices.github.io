@@ -12,10 +12,10 @@ export default function NewNavBar() {
                     <img src={logo} alt="" />
                 </div>
                 <div className='NewNavBarContact'>
-                    <Phone color='success' className='NewNavBarPhone' />
+                    <Phone color='success' style={{ color: '#649c2c' }} className='NewNavBarPhone' />
                     <p className='NewNavBarPhoneNumber'>07955108558</p>
                     <br />
-                    <Email color='success' className='NewNavBarEmail' />
+                    <Email color='success' style={{ color: '#649c2c' }} className='NewNavBarEmail' />
                     <p className='NewNavBarEmailAddress'>DavidsGardeningServicesMedway@gmail.com</p>
                 </div>
             </Toolbar>

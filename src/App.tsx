@@ -40,7 +40,7 @@ function App() {
           <Testimonials />
         </div>
         <NavBar />
-        <div>
+        <div id='homepage-footer'>
           <Footer />
         </div>
         <NavBar />

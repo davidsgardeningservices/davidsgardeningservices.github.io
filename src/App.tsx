@@ -7,6 +7,7 @@ import ContactInformation from './components/ContactInformation';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Testimonials from './components/testimonials/Testimonials';
+import Location from './components/Location';
 
 function App() {
   return (
@@ -21,6 +22,12 @@ function App() {
         <div id='homepage-picture'>
           <img src={garden} alt="" />
         </div>
+        <h3>Services</h3>
+        <NavBar />
+        <Location />
+        <NavBar />
+        <h3>Why Choose Us</h3>
+        <NavBar />
         <div id='homepage-testimonial'>
           <Testimonials />
         </div>

@@ -3,7 +3,7 @@ import TestimonialCarousel from './TestimonialsCarousel';
 export default function Testimonials() {
     return (
         <div>
-            <h2>Testimonials</h2>
+            <h3>Testimonials</h3>
             <TestimonialCarousel />
         </div>
     )

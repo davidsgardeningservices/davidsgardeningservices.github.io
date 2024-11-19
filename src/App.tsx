@@ -18,6 +18,9 @@ function App() {
     <div id='homepage'>
       <Container id="container">
         <NewNavBar />
+        <div className='new-homepage-picture'>
+          <img src={garden} alt="" />
+        </div>
         <NavBar />
         <div id='logo-homepage'>
           <img src={logo} alt="" />

@@ -14,6 +14,18 @@
     width: 100%;
 }
 
+.new-homepage-picture {
+    overflow: hidden
+}
+
+.new-homepage-picture img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 1;
+    filter: blur(5px);
+    margin: -5px;
+}
+
 #homepage-picture img {
     margin-top: min(0.5rem);
     width: 100%;

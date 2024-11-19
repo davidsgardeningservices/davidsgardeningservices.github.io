@@ -1,12 +1,12 @@
 .NewNavBarContainer {
     margin: auto;
+    background-color: black;
 }
 
 .NewAppBar {
     margin: auto;
     position: static;
     width: 100%;
-    background-color: black;
 }
 
 .NewNavBarBusinessName {

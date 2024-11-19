@@ -23,4 +23,29 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 0;
+    border-color: white;
+    border-style: dashed;
+    width: 100%;
+}
+
+.NewNavBarPhone {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.NewNavBarPhoneNumber {
+    margin-left: 1%;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.NewNavBarEmail {
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.NewNavBarEmailAddress {
+    margin-left: 1%;
+    display:inline-block;
+    vertical-align:middle;
 }

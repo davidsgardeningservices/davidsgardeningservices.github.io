@@ -2,6 +2,7 @@ import './NavBar.css'
 import { Container, Toolbar } from '@mui/material/'
 
 import logo from '../images/Davids-Gardening-Logo.svg'
+import { Email, Phone } from '@mui/icons-material'
 
 export default function NewNavBar() {
     return (
@@ -12,10 +13,11 @@ export default function NewNavBar() {
                         <img src={logo} alt="" />
                     </div>
                     <div className='NewNavBarContact'>
-                        Tel: 07955108558
+                        <Phone color='success' className='NewNavBarPhone' />
+                        <p className='NewNavBarPhoneNumber'>07955108558</p>
                         <br />
-                        <br />
-                        Email: DavidsGardeningServicesMedway@gmail.com
+                        <Email color='success' className='NewNavBarEmail' />
+                        <p className='NewNavBarEmailAddress'>DavidsGardeningServicesMedway@gmail.com</p>
                     </div>
                 </Toolbar>
             </div>

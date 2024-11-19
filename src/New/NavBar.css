@@ -1,7 +1,3 @@
-.NewNavBarContainer {
-    margin: auto;
-}
-
 .NewAppBar {
     margin: auto;
     position: static;
@@ -10,7 +6,7 @@
     color: white;
 }
 
-.NewNavBarBusinessName {
+.NewNavBarLogo {
     width: 25%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -23,8 +19,6 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 0;
-    border-color: white;
-    border-style: dashed;
     width: 100%;
 }
 

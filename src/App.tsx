@@ -16,8 +16,8 @@ import NewNavBar from './New/NavBar';
 function App() {
   return (
     <div id='homepage'>
-      <NewNavBar />
       <Container id="container">
+        <NewNavBar />
         <NavBar />
         <div id='logo-homepage'>
           <img src={logo} alt="" />

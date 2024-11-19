@@ -1,12 +1,12 @@
 import './NavBar.css'
-import { AppBar, Container, Toolbar } from '@mui/material/'
+import { Container, Toolbar } from '@mui/material/'
 
 import logo from '../images/Davids-Gardening-Logo.svg'
 
 export default function NewNavBar() {
     return (
         <Container className='NewNavBarContainer'>
-            <AppBar className='NewAppBar'>
+            <div className='NewAppBar'>
                 <Toolbar>
                     <div className='NewNavBarBusinessName'>
                         <img src={logo} alt="" />
@@ -14,10 +14,11 @@ export default function NewNavBar() {
                     <div className='NewNavBarContact'>
                         Tel: 07955108558
                         <br />
+                        <br />
                         Email: DavidsGardeningServicesMedway@gmail.com
                     </div>
                 </Toolbar>
-            </AppBar>
+            </div>
         </Container>
     )
 }

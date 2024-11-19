@@ -23,26 +23,26 @@
 
 #homepage-services {
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin: auto;
 }
 
 #homepage-location {
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin: auto;
 }
 
 #homepage-why-us {
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin: auto;
 }
 
 #homepage-testimonial {
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin: auto;
 }
 
 h3 {

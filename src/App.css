@@ -24,14 +24,14 @@
 
 .homepage-picture-text {
     position: absolute;
-    top: 3vmin;
+    top: 5vmin;
     left: 0; 
     right: 0; 
     margin-inline: auto;
     width: 50%;
     color: white;
     font-weight: bold;
-    font-size: 10vmin;
+    font-size: 8vmin;
 }
 
 #homepage-services {

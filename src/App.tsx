@@ -3,7 +3,6 @@ import logo from './images/Davids-Gardening-Logo.svg'
 import garden from './images/Homepage-Garden.jpg'
 import Container from '@mui/material/Container';
 
-import ContactInformation from './components/ContactInformation';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Testimonials from './components/testimonials/Testimonials';
@@ -18,15 +17,9 @@ function App() {
     <div id='homepage'>
       <Container id="container">
         <NewNavBar />
-        <div className='new-homepage-picture'>
+        <div className='homepage-picture'>
           <img src={garden} alt="" />
-        </div>
-        <div id='logo-homepage'>
-          <img src={logo} alt="" />
-        </div>
-        <NavBar />
-        <div id='homepage-picture'>
-          <img src={garden} alt="" />
+          <p className='homepage-picture-text'>Gardening in Medway</p>
         </div>
         <div id='homepage-services'>
           <Services />

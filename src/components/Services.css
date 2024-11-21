@@ -1,0 +1,41 @@
+.service-heading {
+    font-size: 2.5vmin;
+    font-weight: bold;
+    color: #649c2c;
+    height: 6vmin;
+    margin: auto;
+}
+
+.service-text {
+    font-size: 1.5vmin;
+    width: 90%;
+    color: white;
+    margin: auto;
+}
+
+.service-card {
+    width: 100%;
+    height: 32vmin;
+    margin: auto;
+    background-color: #1b1c1b;
+    margin-top: 2vmin;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    margin-bottom: 2vmin;
+    border-radius: 5%;
+}
+
+.service-card img {
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    width:  15vmin;
+    height: 15vmin;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.services {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}

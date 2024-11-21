@@ -24,7 +24,6 @@ function App() {
             <br /><span className='homepage-picture-text'>Gardening in Medway</span>
             <br /><Button variant="contained" style={{ backgroundColor: '#649c2c' }}>Contact Us</Button>
           </p>
-
         </div>
         <div id='homepage-services'>
           <Services />

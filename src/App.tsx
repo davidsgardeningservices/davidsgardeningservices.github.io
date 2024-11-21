@@ -19,6 +19,7 @@ function App() {
         <NewNavBar />
         <div className='homepage-picture'>
           <img src={garden} alt="" />
+          <p className='homepage-picture-header'>David's Gardening Services</p>
           <p className='homepage-picture-text'>Gardening in Medway</p>
         </div>
         <div id='homepage-services'>

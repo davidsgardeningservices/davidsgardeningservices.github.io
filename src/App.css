@@ -24,11 +24,11 @@
 
 .homepage-picture-text {
     position: absolute;
-    top: 5vmin;
+    top: 5%;
     left: 0; 
     right: 0; 
     margin-inline: auto;
-    width: 50%;
+    width: 100%;
     color: white;
     font-weight: bold;
     font-size: 8vmin;

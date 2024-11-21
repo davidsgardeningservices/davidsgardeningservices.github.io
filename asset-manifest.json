@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.292d5055.css",
-    "main.js": "/static/js/main.f55662f0.js",
+    "main.css": "/static/css/main.4c5fdc59.css",
+    "main.js": "/static/js/main.b839914d.js",
     "static/js/453.07da35a6.chunk.js": "/static/js/453.07da35a6.chunk.js",
+    "static/media/Hedge.jpg": "/static/media/Hedge.bfdf8d2ca023b395ab0a.jpg",
+    "static/media/Guttering.jpg": "/static/media/Guttering.486b3e92da0eb9573a8d.jpg",
+    "static/media/Patio.jpg": "/static/media/Patio.3dd21571a828f0491792.jpg",
     "static/media/Homepage-Garden.jpg": "/static/media/Homepage-Garden.10eb6e16efcb9b7c5d66.jpg",
+    "static/media/Grass.jpg": "/static/media/Grass.894099ecac7e2d190360.jpg",
     "static/media/Medway-Map.png": "/static/media/Medway-Map.fe8578de8366b37d61eb.png",
     "static/media/Davids-Gardening-Logo.svg": "/static/media/Davids-Gardening-Logo.d3e797371e2650b61b830bc3f542cd88.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -11,12 +15,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.292d5055.css.map": "/static/css/main.292d5055.css.map",
-    "main.f55662f0.js.map": "/static/js/main.f55662f0.js.map",
+    "main.4c5fdc59.css.map": "/static/css/main.4c5fdc59.css.map",
+    "main.b839914d.js.map": "/static/js/main.b839914d.js.map",
     "453.07da35a6.chunk.js.map": "/static/js/453.07da35a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.292d5055.css",
-    "static/js/main.f55662f0.js"
+    "static/css/main.4c5fdc59.css",
+    "static/js/main.b839914d.js"
   ]
 }

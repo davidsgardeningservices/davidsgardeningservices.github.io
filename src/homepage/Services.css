@@ -1,33 +1,32 @@
 #homepage-services {
     text-align: center;
     width: 100%;
-    margin: auto;
 }
 
 .service-heading {
-    font-size: 2.5vmin;
+    font-size: 2vmin;
     font-weight: bold;
     color: #649c2c;
     height: 6vmin;
     margin: auto;
+    padding-top: 1vmin;
+    width: 90%;
 }
 
 .service-text {
     font-size: 1.5vmin;
     width: 90%;
     color: white;
+    height: 6vmin;
     margin: auto;
+    padding-bottom: 1vmin;
 }
 
 .service-card {
     width: 100%;
-    height: 32vmin;
+    height: 34vmin;
     margin: auto;
     background-color: #1b1c1b;
-    margin-top: 2vmin;
-    padding-top: 1vmin;
-    padding-bottom: 1vmin;
-    margin-bottom: 2vmin;
     border-radius: 5%;
 }
 
@@ -42,8 +41,6 @@
 
 .services {
     width: 95%;
-    margin-top: -1%;
-    margin-bottom: -1%;
     margin-left: auto;
     margin-right: auto;
 }

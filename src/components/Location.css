@@ -1,23 +1,26 @@
-#location-text {
-    font-size: 1.5vmin;
-    margin: auto;
-    padding-bottom: 1%;
+.location-list-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #location-list {
-    font-size: 1.5vmin; 
+    font-size: 2vmin;
+    font-weight: bold; 
+    width: 85%;
+}
+
+.map {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 96%;
+    border-color: #649c2c;
+    border-style: solid;
+    border-width: thick;
+}
+
+.map-container {
     width: 100%;
-    margin: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#map {  
-    width: 80%;
-    margin: auto;
-}
-
-#map img {
-    width:100%;
-    object-fit: cover;
+    background-color: #1b1c1b;
 }

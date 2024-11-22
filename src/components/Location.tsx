@@ -5,13 +5,18 @@ export default function Location() {
     return (
         <div>
             <h3>Location</h3>
-            <p id="location-text">We provide local landscaping services within the Medway Towns and surrounding areas.</p>
-            <div id='map'>
-                <img src={map} alt="" />
+            <div className='location'>
             </div>
-            <p id='location-list'>Coverage</p>
-            <p id='location-list'>Medway Towns &#40;Strood, Rochester, Chatham, Gillingham, Rainham&#41; Cliffe,
-                Allhallows, Halling, Maidstone, Newington, Sittingbourne, and adjacent areas.</p>
+            <div className='location-list-container'>
+                <p id="location-list">We are a local landscaping business, providing services to the area surrounding the Medway Towns,
+                    including:
+                    <br />
+                    Strood, Rochester, Chatham, Gillingham, Rainham, Cliffe,
+                    Allhallows, Halling, Maidstone, Newington, Sittingbourne</p>
+            </div>
+            <div className='map-container'>
+                <img className='map' src={map} alt="" />
+            </div>
         </div>
     )
 }

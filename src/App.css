@@ -34,6 +34,11 @@
 }
 
 h3 {
-    font-size: 2vmin;
+    font-size: 3vmin;
     color: #649c2c;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    background-color: #1b1c1b;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
   }

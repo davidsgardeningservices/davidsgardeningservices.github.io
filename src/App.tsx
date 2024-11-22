@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 import Footer from './homepage/Footer';
 import Testimonials from './components/testimonials/Testimonials';
 import Location from './components/Location';
-import Services from './components/Services';
+import Services from './homepage/Services';
 import WhyUs from './components/WhyUs';
 
 import NewNavBar from './homepage/NavBar';
@@ -19,9 +19,7 @@ function App() {
       <Container id="container">
         <NewNavBar />
         <ImageHeader />
-        <div id='homepage-services'>
-          <Services />
-        </div>
+        <Services />
         <NavBar />
         <div id='homepage-location'>
           <Location />

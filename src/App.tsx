@@ -9,7 +9,7 @@ import Location from './components/Location';
 import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 
-import NewNavBar from './New/NavBar';
+import NewNavBar from './homepage/NavBar';
 
 import { Button } from '@mui/material';
 

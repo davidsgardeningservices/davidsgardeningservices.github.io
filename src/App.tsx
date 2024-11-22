@@ -3,7 +3,7 @@ import garden from './images/Homepage-Garden.jpg'
 import Container from '@mui/material/Container';
 
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import Footer from './homepage/Footer';
 import Testimonials from './components/testimonials/Testimonials';
 import Location from './components/Location';
 import Services from './components/Services';

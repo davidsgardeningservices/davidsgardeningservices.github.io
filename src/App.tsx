@@ -1,5 +1,5 @@
 import './App.css';
-import garden from './images/Homepage-Garden.jpg'
+
 import Container from '@mui/material/Container';
 
 import NavBar from './components/NavBar';
@@ -11,20 +11,14 @@ import WhyUs from './components/WhyUs';
 
 import NewNavBar from './homepage/NavBar';
 
-import { Button } from '@mui/material';
+import ImageHeader from './homepage/ImageHeader';
 
 function App() {
   return (
     <div id='homepage'>
       <Container id="container">
         <NewNavBar />
-        <div className='homepage-picture'>
-          <img src={garden} alt="" />
-          <p className='homepage-picture-header'>David's Gardening Services
-            <br /><span className='homepage-picture-text'>Gardening in Medway</span>
-            <br /><Button variant="contained" style={{ backgroundColor: '#649c2c' }}>Contact Us</Button>
-          </p>
-        </div>
+        <ImageHeader />
         <div id='homepage-services'>
           <Services />
         </div>

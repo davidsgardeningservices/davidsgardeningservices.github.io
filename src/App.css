@@ -9,40 +9,6 @@
     width: 100%;
 }
 
-.homepage-picture {
-    background: black;
-    overflow: hidden;
-}
-
-.homepage-picture img {
-    position: relative;
-    width: 100%;
-    object-fit: cover;
-    aspect-ratio: 2.5 / 1;
-    opacity: 0.5;
-    margin: -8px;
-}
-
-.homepage-picture-header {
-    position: absolute;
-    margin-top: 15vmin;
-    top: 0;
-    left: 0; 
-    right: 0; 
-    margin-inline: auto;
-    width: 100%;
-    color: white;
-    font-size: 6vmin;
-}
-.homepage-picture-button {
-    position: absolute;
-    top: 0;
-}
-
-.homepage-picture-text {
-    font-size: 3vmin;
-}
-
 #homepage-services {
     text-align: center;
     width: 100%;

@@ -13,18 +13,10 @@ import ImageHeader from './homepage/ImageHeader';
 
 function App() {
   return (
-    <div id='homepage'>
-      <Container id="container">
+    <div>
+      <Container id="container" maxWidth={false} disableGutters>
         <ImageHeader />
-        <NavBar />
-        <div id='homepage-location'>
-          <Location />
-        </div>
-        <h3>Services</h3>
         <Services />
-        <div id='homepage-testimonial'>
-          <Testimonials />
-        </div>
         <div id='homepage-footer'>
           <Footer />
         </div>

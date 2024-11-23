@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd1d57ff.css",
+    "main.css": "/static/css/main.50b2dd99.css",
     "main.js": "/static/js/main.a4d436d1.js",
     "static/js/453.07da35a6.chunk.js": "/static/js/453.07da35a6.chunk.js",
     "static/media/Homepage-Garden.jpg": "/static/media/Homepage-Garden.10eb6e16efcb9b7c5d66.jpg",
     "static/media/Grass.jpg": "/static/media/Grass.894099ecac7e2d190360.jpg",
     "static/media/Davids-Gardening-Logo.svg": "/static/media/Davids-Gardening-Logo.d3e797371e2650b61b830bc3f542cd88.svg",
     "index.html": "/index.html",
-    "main.cd1d57ff.css.map": "/static/css/main.cd1d57ff.css.map",
+    "main.50b2dd99.css.map": "/static/css/main.50b2dd99.css.map",
     "main.a4d436d1.js.map": "/static/js/main.a4d436d1.js.map",
     "453.07da35a6.chunk.js.map": "/static/js/453.07da35a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd1d57ff.css",
+    "static/css/main.50b2dd99.css",
     "static/js/main.a4d436d1.js"
   ]
 }

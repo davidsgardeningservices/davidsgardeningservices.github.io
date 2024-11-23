@@ -1,9 +1,9 @@
-.homepage-picture {
+.image-header-background {
     background: black;
     overflow: hidden;
 }
 
-.homepage-picture img {
+.image-header-background img {
     position: relative;
     width: 100%;
     object-fit: cover;
@@ -12,18 +12,17 @@
     margin: -8px;
 }
 
-.homepage-picture-header {
+.image-header-logo {
     position: absolute;
-    margin-top: 15vmin;
+    margin-top: 1vmin;
     top: 0;
     left: 0; 
     right: 0; 
     margin-inline: auto;
-    width: 100%;
-    color: white;
-    font-size: 6vmin;
-}
-
-.homepage-picture-text {
-    font-size: 3vmin;
+    width: 15%;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+    background-color: white;
 }

@@ -15,8 +15,8 @@ function App() {
   return (
     <div id='homepage'>
       <Container id="container">
-        <NavBar />
         <ImageHeader />
+        <NavBar />
         <div id='homepage-location'>
           <Location />
         </div>

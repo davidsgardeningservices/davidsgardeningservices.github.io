@@ -16,7 +16,7 @@ export default function Services() {
                     <li>Patio pressure washing</li>
                     <li>Gutter clearance</li>
                 </ul>
-                <p>Contact Us</p>
+                <p>Contact us for a free quote</p>
             </div>
             <img className='services-image' src={grass} alt="" />
 

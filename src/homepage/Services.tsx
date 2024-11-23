@@ -6,7 +6,7 @@ export default function Services() {
     return (
         <div className='homepage-services'>
             <div className='services-text'>
-                <h3>Services</h3>
+                <p className='services-title'>Services</p>
                 <p>Currently, we offer the following services: </p>
                 <ul>
                     <li>Full garden maintenance</li>
